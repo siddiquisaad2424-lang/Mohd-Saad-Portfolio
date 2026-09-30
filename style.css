@@ -1,0 +1,49 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f8fafc;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container / Main Wrapper */
+.container, main, section {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings Styling */
+h1, h2, h3 {
+    color: #38bdf8;
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+/* Links & Buttons */
+a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #7dd3fc;
+    text-decoration: underline;
+}
+
+/* Images Styling (Fixing layout) */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #38bdf8;
+    margin: 10px 0;
+}
